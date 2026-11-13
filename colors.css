@@ -1,0 +1,19 @@
+:root {
+  --color-cream: #fff5eb;
+  --color-wine: #6f1730;
+  --color-page-background: #222426;
+  --color-hero-fallback: #55595a;
+  --color-white: #fff;
+  --color-cream-20: rgba(255, 245, 235, 0.2);
+  --color-cream-80: rgba(255, 245, 235, 0.8);
+  --color-cream-92: rgba(255, 245, 235, 0.92);
+  --color-overlay-88: rgba(13, 15, 16, 0.88);
+  --color-overlay-78: rgba(13, 15, 16, 0.78);
+  --color-overlay-62: rgba(19, 20, 21, 0.62);
+  --color-overlay-25: rgba(13, 15, 16, 0.25);
+  --color-overlay-15: rgba(20, 20, 20, 0.15);
+  --color-overlay-12: rgba(10, 11, 12, 0.12);
+  --color-overlay-16: rgba(10, 11, 12, 0.16);
+  --color-overlay-68: rgba(10, 11, 12, 0.68);
+  --color-overlay-76: rgba(10, 11, 12, 0.76);
+}
