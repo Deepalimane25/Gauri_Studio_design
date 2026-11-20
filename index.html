@@ -22,7 +22,6 @@
     >
     <link rel="stylesheet" href="colors.css">
     <link rel="stylesheet" href="fonts.css">
-    <link rel="stylesheet" href="components.css">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -115,15 +114,15 @@
     </div>
 
     <section class="collections" id="collections" aria-labelledby="collections-title">
-      <h2 class="collections-heading" id="collections-title">Our Collections</h2>
+      <h2 class="section-heading" id="collections-title">Our Collections</h2>
       <div class="collections-divider" aria-hidden="true">
         <span></span>
         <i></i>
         <span></span>
       </div>
 
-      <div class="collection-grid">
-        <article class="collection-card">
+      <div class="collection-grid row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 g-4">
+        <article class="collection-card col">
           <div class="collection-image">
             <img
               src="assets/images/Ready%20to%20wear%20saree.jpg"
@@ -135,7 +134,7 @@
           <span class="collection-link">Ask on WhatsApp <b aria-hidden="true">↗</b></span>
         </article>
 
-        <article class="collection-card">
+        <article class="collection-card col">
           <div class="collection-image">
             <img
               src="assets/images/nauvari%20sarees.jpg"
@@ -147,7 +146,7 @@
           <span class="collection-link">Ask on WhatsApp <b aria-hidden="true">↗</b></span>
         </article>
 
-        <article class="collection-card">
+        <article class="collection-card col">
           <div class="collection-image">
             <img
               src="assets/images/kids%20sarees.png"
@@ -159,7 +158,7 @@
           <span class="collection-link">Ask on WhatsApp <b aria-hidden="true">↗</b></span>
         </article>
 
-        <article class="collection-card">
+        <article class="collection-card col">
           <div class="collection-image">
             <img
               src="assets/images/Designer%20Blouses.jpg"
@@ -171,7 +170,7 @@
           <span class="collection-link">Ask on WhatsApp <b aria-hidden="true">↗</b></span>
         </article>
 
-        <article class="collection-card">
+        <article class="collection-card col">
           <div class="collection-image">
             <img
               src="assets/images/Custom%20Stitching.jpg"
@@ -198,14 +197,14 @@
           for sarees into a studio of her own.
         </p>
         <p class="studio-story-text">
-          GAURI Studio is shaped by a belief that what we wear can hold meaning
-          beyond the occasion. It can reflect our roots, our changing identities,
-          and the moments we want to remember.
+          GAURI Studio is shaped by a belief that what we wear can hold meaning beyond the
+          occasion. It can reflect our roots, our changing identities, and the moments we want to
+          remember.
         </p>
         <p class="studio-story-text">
-          The studio brings that belief into the experience of choosing a saree,
-          considering a blouse design, and creating a look that feels personal
-          rather than simply following a trend.
+          The studio brings that belief into the experience of choosing a saree, considering a
+          blouse design, and creating a look that feels personal rather than simply following a
+          trend.
         </p>
         <blockquote class="studio-story-quote">
           “The best part of getting dressed is feeling like yourself.”
@@ -226,29 +225,17 @@
         <span></span>
       </div>
 
-      <div class="studio-gallery-filters" role="group" aria-label="Filter studio photos">
-        <button class="gallery-filter" type="button" data-filter="all" aria-pressed="true">
-          All
-        </button>
-        <button class="gallery-filter" type="button" data-filter="sarees" aria-pressed="false">
-          Sarees
-        </button>
-        <button class="gallery-filter" type="button" data-filter="nauvari" aria-pressed="false">
-          Nauvari
-        </button>
-        <button class="gallery-filter" type="button" data-filter="blouses" aria-pressed="false">
-          Blouses
-        </button>
-        <button class="gallery-filter" type="button" data-filter="kids" aria-pressed="false">
-          Kids
-        </button>
-        <button class="gallery-filter" type="button" data-filter="studio" aria-pressed="false">
-          Studio
-        </button>
+      <div class="studio-gallery-filters d-flex flex-wrap justify-content-center gap-2" aria-hidden="true">
+        <span class="gallery-filter is-active">All</span>
+        <span class="gallery-filter">Sarees</span>
+        <span class="gallery-filter">Nauvari</span>
+        <span class="gallery-filter">Blouses</span>
+        <span class="gallery-filter">Kids</span>
+        <span class="gallery-filter">Studio</span>
       </div>
 
-      <div class="studio-gallery-grid">
-        <div class="studio-gallery-column">
+      <div class="studio-gallery-grid row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="studio-gallery-column col">
           <figure class="studio-gallery-item gallery-paithani" data-category="sarees">
             <img
               src="assets/images/hero_background.jpg"
@@ -265,7 +252,7 @@
             >
             <figcaption>Nine-yard Nauvari drape</figcaption>
           </figure>
-          <figure class="studio-gallery-item" data-category="kids">
+          <figure class="studio-gallery-item gallery-portrait-short" data-category="kids">
             <img
               src="assets/images/kids%20sarees.png"
               alt="Girl wearing a festive saree"
@@ -275,7 +262,7 @@
           </figure>
         </div>
 
-        <div class="studio-gallery-column">
+        <div class="studio-gallery-column col">
           <figure class="studio-gallery-item" data-category="blouses">
             <img
               src="assets/images/Designer%20Blouses.jpg"
@@ -284,7 +271,7 @@
             >
             <figcaption>Embroidered back neckline</figcaption>
           </figure>
-          <figure class="studio-gallery-item" data-category="studio">
+          <figure class="studio-gallery-item gallery-square" data-category="studio">
             <img
               src="assets/images/Custom%20Stitching.jpg"
               alt="Saree fabric being measured for stitching"
@@ -302,7 +289,7 @@
           </figure>
         </div>
 
-        <div class="studio-gallery-column">
+        <div class="studio-gallery-column col">
           <figure class="studio-gallery-item" data-category="sarees">
             <img
               src="assets/images/Ready%20to%20wear%20saree.jpg"
@@ -311,7 +298,7 @@
             >
             <figcaption>Pre-draped georgette</figcaption>
           </figure>
-          <figure class="studio-gallery-item" data-category="studio">
+          <figure class="studio-gallery-item gallery-landscape" data-category="studio">
             <img
               src="assets/images/Custom%20Stitching.jpg"
               alt="Custom saree stitching in progress"
@@ -319,7 +306,7 @@
             >
             <figcaption>Measured for custom stitching</figcaption>
           </figure>
-          <figure class="studio-gallery-item" data-category="sarees">
+          <figure class="studio-gallery-item gallery-shelf" data-category="sarees">
             <img
               src="assets/images/Ready%20to%20wear%20saree.jpg"
               alt="Ready-to-wear saree collection"
@@ -327,35 +314,126 @@
             >
             <figcaption>A classic saree, ready to wear</figcaption>
           </figure>
+          <figure class="studio-gallery-item gallery-wide" data-category="studio">
+            <img
+              src="assets/images/Custom%20Stitching.jpg"
+              alt="Tailor measuring a saree for custom stitching"
+              loading="lazy"
+            >
+            <figcaption>Made to your measurements</figcaption>
+          </figure>
         </div>
       </div>
     </section>
 
-    <script>
-      const galleryFilters = document.querySelectorAll(".gallery-filter");
-      const galleryColumns = document.querySelectorAll(".studio-gallery-column");
+    <section class="testimonials d-grid align-content-center text-center" aria-labelledby="testimonials-title">
+      <div class="testimonial-content w-100 mx-auto">
+        <h2 class="section-heading" id="testimonials-title">Kind Words</h2>
+        <div class="collections-divider testimonials-divider" aria-hidden="true">
+          <span></span>
+          <i></i>
+          <span></span>
+        </div>
 
-      galleryFilters.forEach((button) => {
-        button.addEventListener("click", () => {
-          const category = button.dataset.filter;
+        <figure class="m-0">
+          <span class="testimonial-quote-mark" aria-hidden="true">“</span>
+          <blockquote class="testimonial-quote m-0">
+            “The tradition I love, with the freedom to move through the day as myself.”
+          </blockquote>
+          <figcaption class="testimonial-attribution d-flex flex-wrap align-items-center justify-content-center gap-2 mt-4">
+            <span>Customer name</span>
+            <span aria-hidden="true">·</span>
+            <span class="testimonial-category">Nauvari saree</span>
+          </figcaption>
+        </figure>
 
-          galleryColumns.forEach((column) => {
-            const items = column.querySelectorAll(".studio-gallery-item");
-            let hasVisibleItems = false;
+        <div class="testimonial-controls d-flex align-items-center justify-content-center gap-1 mt-5" aria-hidden="true">
+          <span class="testimonial-arrow">‹</span>
+          <span class="testimonial-indicator is-active"></span>
+          <span class="testimonial-indicator"></span>
+          <span class="testimonial-indicator"></span>
+          <span class="testimonial-arrow">›</span>
+        </div>
+      </div>
+    </section>
 
-            items.forEach((item) => {
-              item.hidden = category !== "all" && item.dataset.category !== category;
-              hasVisibleItems = hasVisibleItems || !item.hidden;
-            });
+    <section class="enquiry-section" aria-labelledby="enquiry-title">
+      <div class="row g-1">
+        <div class="col-lg-5 enquiry-image-wrap">
+          <img
+            class="enquiry-image"
+            src="assets/images/Custom%20Stitching.jpg"
+            alt="A tailor measuring saree fabric for custom stitching"
+            loading="lazy"
+          >
+        </div>
+        <div class="col-lg-7 enquiry-panel d-flex align-items-center">
+          <div class="enquiry-content w-100 mx-auto">
+            <h2 class="enquiry-title" id="enquiry-title">Send an Enquiry</h2>
+            <div class="enquiry-form">
+              <div class="row g-3 gy-4">
+                <div class="col-md-6">
+                  <label class="form-label" for="enquiry-name">Your name</label>
+                  <input class="form-control" id="enquiry-name" name="name" type="text" placeholder="Your full name" autocomplete="name">
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="enquiry-phone">Mobile / WhatsApp</label>
+                  <input class="form-control" id="enquiry-phone" name="phone" type="tel" placeholder="Your WhatsApp number" autocomplete="tel">
+                </div>
+                <fieldset class="col-12">
+                  <legend class="form-label">Collection interest</legend>
+                  <div class="enquiry-options">
+                    <label class="enquiry-choice">
+                      <input class="visually-hidden" type="checkbox" name="interest" value="Ready-to-Wear Sarees">
+                      <span>Ready-to-Wear Sarees</span>
+                    </label>
+                    <label class="enquiry-choice">
+                      <input class="visually-hidden" type="checkbox" name="interest" value="Nauvari Sarees">
+                      <span>Nauvari Sarees</span>
+                    </label>
+                    <label class="enquiry-choice">
+                      <input class="visually-hidden" type="checkbox" name="interest" value="Kids’ Sarees">
+                      <span>Kids’ Sarees</span>
+                    </label>
+                    <label class="enquiry-choice">
+                      <input class="visually-hidden" type="checkbox" name="interest" value="Designer Blouses">
+                      <span>Designer Blouses</span>
+                    </label>
+                    <label class="enquiry-choice">
+                      <input class="visually-hidden" type="checkbox" name="interest" value="Custom Stitching">
+                      <span>Custom Stitching</span>
+                    </label>
+                  </div>
+                </fieldset>
+                <div class="col-md-6">
+                  <label class="form-label" for="enquiry-occasion">Occasion</label>
+                  <input class="form-control" id="enquiry-occasion" name="occasion" type="text" placeholder="Wedding, festive or everyday...">
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="enquiry-date">Date (optional)</label>
+                  <input class="form-control" id="enquiry-date" name="date" type="date">
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="enquiry-message">Message</label>
+                  <textarea class="form-control" id="enquiry-message" name="message" rows="3" placeholder="Tell us about the look you have in mind..."></textarea>
+                </div>
+                <div class="col-12">
+                  <button class="btn button-primary enquiry-submit" type="button">
+                    <span class="chat-icon enquiry-chat-icon" aria-hidden="true"></span>
+                    Send via WhatsApp
+                    <span class="button-arrow" aria-hidden="true">↗</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            column.hidden = !hasVisibleItems;
-          });
-
-          galleryFilters.forEach((filter) => {
-            filter.setAttribute("aria-pressed", String(filter === button));
-          });
-        });
-      });
-    </script>
+    <footer class="site-footer d-flex flex-wrap justify-content-between align-items-center gap-3">
+      <p class="mb-0">© 2026 Gauri Designing Studio</p>
+      <a href="#home">Back to top <span aria-hidden="true">↑</span></a>
+    </footer>
   </body>
 </html>
